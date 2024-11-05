@@ -1,3 +1,8 @@
+install.packages("ggplot")
+install.packages("daltoolbox")
+#install pckages
+
+
 library(ggplot2)
 library(daltoolbox)
 
@@ -127,7 +132,7 @@ eval
  
 # 4. Construa um modelo predição usando redes neurais para os dados de vinho usando o DAL Toolbox
 
-data <- read.csv("~/data.csv")
+data <- read.csv("./data.csv")
 colnames(data) <- c("Tipo", "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11", "a12", "a13")
 
 data(data)
